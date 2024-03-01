@@ -1,5 +1,9 @@
 #include <Arduino.h>
 #include "ConfigManager.h"
+
+// lib_deps =
+//    https://github.com/GilbertoBojorquezDelgado/ObjetoIoT_ManagerConfig
+
 // Borrar la memoria EEPROM -> pio run -t erase
 
 ConfigManager config;
